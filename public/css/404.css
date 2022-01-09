@@ -1,0 +1,17 @@
+body,
+html {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/404.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
