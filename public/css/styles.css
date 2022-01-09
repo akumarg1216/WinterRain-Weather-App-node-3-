@@ -1,79 +1,101 @@
-html,
-body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    color: crimson;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: coral;
-}
-
-h3 {
-    color: purple;
-    text-align: center;
-}
-
-h4 {
-    color: rgb(11, 195, 241);
-    text-align: center;
-}
-
-h5 {
-    color: blueviolet;
-    text-align: center;
-}
-
-h6 {
-    text-align: center;
-}
-
-img {
-    height: 500px;
-    width: 1250px;
-}
-
-.alert {
-    min-height: 50px;
-    margin-top: auto;
-    margin-bottom: 0;
-}
-
-.location-box {
-    margin-left: 450px;
-    margin-top: 65px;
-    border: 1px solid #cccccc;
-    padding: 10px;
-    border-radius: 200px;
-}
-
-.location-button {
-    margin-left: 620px;
-    cursor: pointer;
-    padding: 10px;
-    outline: 1px;
-}
-
-.location-button:hover {
-    background-color: white;
-}
-
-.card {
-    margin-left: 400px;
-    margin-top: 60px;
-}
-
-#message-1,
-#message-2,
-#message-3,
-#message-4 {
-    margin-left: 450px;
-}
+    html,
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1 {
+        color: crimson;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+        color: coral;
+    }
+    
+    h3 {
+        color: purple;
+        text-align: center;
+    }
+    
+    h4 {
+        color: rgb(11, 195, 241);
+        text-align: center;
+    }
+    
+    h5 {
+        color: blueviolet;
+        text-align: center;
+    }
+    
+    h6 {
+        text-align: center;
+    }
+    
+    img {
+        height: 500px;
+        width: 1250px;
+    }
+    
+    .alert {
+        min-height: 50px;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+    
+    .location-box {
+        margin-left: 450px;
+        margin-top: 65px;
+        border: 1px solid #cccccc;
+        padding: 10px;
+        border-radius: 200px;
+    }
+    
+    .location-button {
+        margin-left: 620px;
+        cursor: pointer;
+        padding: 10px;
+        outline: 1px;
+    }
+    
+    .location-button:hover {
+        background-color: white;
+    }
+    
+    .card {
+        margin-left: 400px;
+        margin-top: 60px;
+    }
+    
+    #message-1,
+    #message-2,
+    #message-3,
+    #message-4 {
+        margin-left: 450px;
+    }
+    
+    .reference-img {
+        height: 300px;
+        width: 200px;
+        margin-right: 200px;
+    }
+    
+    .row {
+        display: flex;
+    }
+    /* Create two equal columns that sits next to each other */
+    
+    .column {
+        flex: 50%;
+        padding: 10px;
+        height: 300px;
+        /* Should be removed. Only for demonstration */
+    }
+    
+    .links {
+        padding-left: 500px;
+    }
