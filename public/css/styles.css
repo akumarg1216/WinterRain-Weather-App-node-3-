@@ -48,18 +48,31 @@
     }
     
     .location-box {
-        margin-left: 450px;
-        margin-top: 65px;
         border: 1px solid #cccccc;
         padding: 10px;
         border-radius: 200px;
+        width: 35%;
+        height: 8%;
+        position: absolute;
+        top: 0;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
     
     .location-button {
-        margin-left: 620px;
         cursor: pointer;
         padding: 10px;
         outline: 1px;
+        width: 10%;
+        height: 8%;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
     
     .location-button:hover {
@@ -67,35 +80,58 @@
     }
     
     .card {
-        margin-left: 400px;
-        margin-top: 60px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
     }
     
     #message-1,
     #message-2,
     #message-3,
     #message-4 {
-        margin-left: 450px;
+        width: 35%;
+        height: 8%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    #message-1 {
+        top: 220px;
+    }
+    
+    #message-2 {
+        top: 300px;
+    }
+    
+    #message-3 {
+        top: 380px;
+    }
+    
+    #message-4 {
+        top: 460px;
     }
     
     .reference-img {
         height: 300px;
         width: 200px;
-        margin-right: 200px;
+        position: absolute;
+        left: 80%;
+        top: 43.5%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
     }
     
     .row {
         display: flex;
     }
-    /* Create two equal columns that sits next to each other */
     
     .column {
         flex: 50%;
-        padding: 10px;
         height: 300px;
-        /* Should be removed. Only for demonstration */
-    }
-    
-    .links {
-        padding-left: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
